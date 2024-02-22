@@ -9,7 +9,12 @@ console.log(typeof null)
 console.log(typeof undefined)
 
 
-let score='45abc';
+// let score=null;  //0
+// let score=undefined; // NaN
+// let score='33' // 33
+// let score='45abc' //NaN
+let score='suraj' // NaN
+
 let valueInNumber=Number(score) // type Conversion
 console.log(typeof valueInNumber) // Number
-console.log( valueInNumber) //NaN
+console.log( valueInNumber) 
