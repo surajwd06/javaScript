@@ -35,4 +35,24 @@ const myFun=function (){
     console.log("Non Primitive data types")
 }
 myFun();
-console.log(typeof  devs);
+console.log(typeof  myFun);
+
+// Memory in javaScript 
+
+// Stack (Primitive data type), Heap (Non Primitive data type)
+//Stack
+let myName="suraj";
+let newName=myName;
+newName="pawan"
+console.log(myName)
+console.log(newName)
+
+// heap
+let userOne={
+    userName:"suraj@google.com",
+    upi:"suraj@ybl"
+}
+let  userTwo=userOne;
+userTwo.userName="pawan@google.com"
+console.log(userOne)
+console.log(userTwo)
