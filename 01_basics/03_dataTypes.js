@@ -56,3 +56,23 @@ let  userTwo=userOne;
 userTwo.userName="pawan@google.com"
 console.log(userOne)
 console.log(userTwo)
+
+let newString=new String("suraj");
+// console.log(newString)
+// console.log(newString.charAt(2))
+// console.log(newString.toUpperCase())
+// console.log(newString.at(3))
+// console.log(newString.charAt(3))
+// console.log(newString.anchor("suraj"))
+// let index=4;
+// console.log(newString.concat(index))
+// console.log("dsbc",newString.fixed(1))
+
+// number
+
+let num0= new Number(100);
+
+let newNumstr=num0.toString()
+console.log(typeof newNumstr)
+let fixedVal=105.1656;
+console.log(fixedVal.toFixed(2))
