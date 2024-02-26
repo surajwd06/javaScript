@@ -33,5 +33,8 @@ console.log(arr)
 let arrRes=arr.concat(arr2)
 console.log("asrrRes",arrRes)
 
+// console.log(Array.from())
+// console.log(Array.of())
+
 
 
