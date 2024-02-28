@@ -26,16 +26,17 @@ function calculateCardPrise(...num) {
 
 // console.log(calculateCardPrise(100, 200, 300, 400, 500));
 
-
-function handleObject(anyObject){
-    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`)
+function handleObject(anyObject) {
+  console.log(
+    `Username is ${anyObject.username} and price is ${anyObject.price}`
+  );
 }
 handleObject({
-    username:"suraj",
-    price:3999
-})
+  username: "suraj",
+  price: 3999,
+});
 
-function handleArray(array){
-console.log(`This array is ${array[0]}`)
+function handleArray(array) {
+  console.log(`This array is ${array[0]}`);
 }
-handleArray([1,2,3,4,5])
+handleArray([1, 2, 3, 4, 5]);
